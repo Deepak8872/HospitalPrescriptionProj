@@ -1,0 +1,51 @@
+{
+  "a32d5a23-e040-4249-97a5-74ef03444dbd": {
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "keyBasedAuth",
+      "displayName": "Azure Blob Storage",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1639/1.0.1639.3319/azureblob/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azureblob",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_azureblob/connections/e1e33d4a29184b65aa5ab889b6e24bff"
+    },
+    "datasets": {},
+    "dataSources": [
+      "AzureBlobStorage"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "prescriptionimagestore"
+    ],
+    "id": "a32d5a23-e040-4249-97a5-74ef03444dbd"
+  },
+  "f0563bf4-e894-4385-8eac-853a4654cbe1": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "1e00ccb4-7081-4629-8de0-2a6d95c3572e"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "1e00ccb4-7081-4629-8de0-2a6d95c3572e"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ImageRecognizationFlow"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f0563bf4-e894-4385-8eac-853a4654cbe1"
+  }
+}

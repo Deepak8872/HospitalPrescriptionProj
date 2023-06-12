@@ -1,0 +1,98 @@
+[
+  {
+    "DisplayName": "tbl_Presciptions (Views)",
+    "Name": "_crdce_tbl_presciptions_views",
+    "RelatedEntityName": "tbl_Presciptions",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "5c864779-30d0-413f-a16a-9b25fb32b444": "Active tbl_Presciptions",
+      "5d375096-a65e-4b14-b3ae-7b07dd0997ef": "tbl_Presciptions Associated View",
+      "7f2c58ee-fa32-4e2f-90cd-afc293a12c37": "tbl_Presciptions Lookup View",
+      "8f4b1249-3e33-4676-b1bd-fc1c299587da": "tbl_Presciptions Advanced Find View",
+      "aeddeaea-b4f3-4bd1-8c45-5c00b3043a84": "Inactive tbl_Presciptions"
+    }
+  },
+  {
+    "DisplayName": "Status (tbl_Presciptions)",
+    "Name": "crdce_tbl_presciptions_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "tbl_Presciptions"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "tbl_Presciptions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (tbl_Presciptions)",
+    "Name": "crdce_tbl_presciptions_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "tbl_Presciptions"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "tbl_Presciptions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crdce_tbl_presciptionses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crdce_tbl_presciptions",
+    "MaxGetRowsCount": 500,
+    "Name": "tbl_Presciptions",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crdce_extractedtet": "ExtractedTet",
+      "crdce_id": "Id",
+      "crdce_imgurl": "imgUrl",
+      "crdce_name": "Name",
+      "crdce_tbl_presciptions_AsyncOperations": "System Jobs",
+      "crdce_tbl_presciptions_BulkDeleteFailures": "Bulk Delete Failures",
+      "crdce_tbl_presciptions_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crdce_tbl_presciptions_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crdce_tbl_presciptions_ProcessSession": "Process Sessions",
+      "crdce_tbl_presciptions_SyncErrors": "Sync Errors",
+      "crdce_tbl_presciptionsid": "tbl_Presciptions",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "tbl_Presciptions",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]

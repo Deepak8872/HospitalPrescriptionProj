@@ -1,0 +1,75 @@
+Comp_left_menu As CanvasComponent:
+    Fill: =RGBA(237, 237, 237, 1)
+    Height: =Max(App.Height, App.MinScreenHeight)-82
+    menuWidth: =If(varopenmenu,Max(App.Width, App.MinScreenWidth)/8+10,70)
+    Navitems: |-
+        =Table(
+            {
+                Title:"Courses",
+                Screen:App.ActiveScreen,
+                Icon:  Icon.DocumentWithContent
+            },
+             {
+                Title:"Links",
+                Screen:App.ActiveScreen,
+                Icon:  Icon.Link
+            },
+             {
+                Title:"Search",
+                Screen:App.ActiveScreen,
+                Icon:  Icon.Search
+            },
+             {
+                Title:"Edit",
+                Screen:App.ActiveScreen,
+                Icon:  Icon.Edit
+            }
+        )
+            
+    Width: =Comp_left_menu.menuWidth
+    X: =0
+    Y: =30
+    ZIndex: =2
+
+    icontop As icon.Hamburger:
+        Height: =70
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(varopenmenu,!varopenmenu)
+        PaddingLeft: =10
+        PaddingRight: =10
+        PaddingTop: =10
+        Width: =70
+        ZIndex: =1
+
+    gallerynav As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =Parent.Height- icontop.Height
+        Items: =Comp_left_menu.Navitems
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =100
+        Width: =Parent.Width
+        Y: =icontop.Y+icontop.Height
+        ZIndex: =2
+
+        Navicon As icon.Add:
+            Height: =Parent.TemplateHeight
+            Icon: =ThisItem.Icon
+            OnSelect: =Set(varopenmenu,false); Navigate(ThisItem.Screen)
+            PaddingBottom: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            Width: =55
+            X: =5
+            ZIndex: =2
+
+        Title As label:
+            Height: =Parent.TemplateHeight
+            OnSelect: =Set(varopenmenu,false); Navigate(ThisItem.Screen)
+            PaddingLeft: =70
+            PaddingRight: =0
+            Size: =16
+            Text: =ThisItem.Title
+            Width: =170.75
+            ZIndex: =3
+

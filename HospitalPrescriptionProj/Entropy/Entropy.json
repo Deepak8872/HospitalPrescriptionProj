@@ -1,0 +1,161 @@
+{
+  "ComponentIndexes": {
+    "Comp_Header": 2,
+    "Comp_left_menu": 2,
+    "Comp_leftmenu": 2,
+    "CompFooter": 3,
+    "CompHeader": 1
+  },
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btnAdmin": 18,
+    "btnUpload": 23,
+    "camVideo": 21,
+    "Comp_Header": 17,
+    "Comp_left_menu": 7,
+    "Comp_leftmenu": 19,
+    "CompFooter": 13,
+    "CompHeader": 4,
+    "gallerynav": 9,
+    "galleryTemplate2": 10,
+    "Host": 3,
+    "icontop": 8,
+    "imgVideoImage": 20,
+    "lbl_header_label": 5,
+    "lbl_header_label_1": 6,
+    "lbl_header_label_2": 14,
+    "lbl_header_label_3": 15,
+    "Navicon": 12,
+    "scrCamera": 16,
+    "Title": 11,
+    "TxtUrl": 22
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "06/12/2023 04:54:15",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "a32d5a23-e040-4249-97a5-74ef03444dbd": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/e1e33d4a29184b65aa5ab889b6e24bff\"",
+    "f0563bf4-e894-4385-8eac-853a4654cbe1": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/1e00ccb4708146298de02a6d95c3572e-8ac9cdf357d3e273\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "channels4_profile": "834efdc4-c5ff-4eee-a361-5775f9f2fb41.jpg",
+    "Excel-icon": "8c5e3ad2-3176-47be-972b-23d6c6522f65.png",
+    "QuestPond2022062409100620220624092538": "29991d88-1490-412e-93c1-1ac88fdf3fdb.jpg"
+  },
+  "LocalResourceRootPaths": {
+    "channels4_profile": "https://docserverpwaprodcin.blob.core.windows.net/9c425063-938e-40e4-b1ed-86f3f3b0a708-1/resource/Assets0Images0834efdc4-c5ff-4eee-a361-5775f9f2fb41.jpg?sv=2018-03-28&sr=b&sig=bjo5xTSeECELHPR%2Fygs2%2BtHDRfCIzbXWdS5tt7kqy8k%3D&spr=https&se=2023-06-13T05%3A06%3A49Z&sp=r",
+    "Excel-icon": "https://docserverpwaprodcin.blob.core.windows.net/9c425063-938e-40e4-b1ed-86f3f3b0a708-1/resource/Assets0Images08c5e3ad2-3176-47be-972b-23d6c6522f65.png?sv=2018-03-28&sr=b&sig=NH2aiKBszAQkkSMKxswvDDlj3fWYEiSbWZMJQw9F1ik%3D&spr=https&se=2023-06-13T05%3A06%3A49Z&sp=r",
+    "QuestPond2022062409100620220624092538": "https://docserverpwaprodcin.blob.core.windows.net/9c425063-938e-40e4-b1ed-86f3f3b0a708-1/resource/Assets0Images029991d88-1490-412e-93c1-1ac88fdf3fdb.jpg?sv=2018-03-28&sr=b&sig=67mNVlUAYhbPx2eUECgkOJ0OnuBf6mvJM59LxDRp%2FwQ%3D&spr=https&se=2023-06-13T05%3A06%3A49Z&sp=r"
+  },
+  "OrderComponentMetadata": {
+    "4757cbe572fd417b996cc223d56ddc18": 2,
+    "745e9b79725d4428ac4abe2712d7412d": 0,
+    "f96484df10f742e2b79cbad49c78d39e": 1
+  },
+  "OrderComponentTemplate": {
+    "4757cbe572fd417b996cc223d56ddc18": 2,
+    "745e9b79725d4428ac4abe2712d7412d": 0,
+    "f96484df10f742e2b79cbad49c78d39e": 1
+  },
+  "OrderDataSource": {
+    "AzureBlobStorage": 0,
+    "CustomGallerySample": 5,
+    "ImageRecognizationFlow": 1,
+    "tbl_Presciptions": 6,
+    "tbl_Presciptions\\crdce_tbl_presciptions_statecode": 2,
+    "tbl_Presciptions\\crdce_tbl_presciptions_statuscode": 3,
+    "tbl_Presciptions\\default.cds_crdce_tbl_presciptions_views": 4
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 1,
+    "camera": 5,
+    "gallery": 3,
+    "icon": 2,
+    "image": 4,
+    "label": 0,
+    "text": 6
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "btnAdmin": {},
+    "btnUpload": {},
+    "camVideo": {},
+    "Comp_Header": {},
+    "Comp_left_menu": {},
+    "Comp_leftmenu": {},
+    "CompFooter": {},
+    "CompHeader": {},
+    "gallerynav": {},
+    "galleryTemplate2": {},
+    "Host": {},
+    "icontop": {},
+    "imgVideoImage": {},
+    "lbl_header_label": {},
+    "lbl_header_label_1": {},
+    "lbl_header_label_2": {},
+    "lbl_header_label_3": {},
+    "Navicon": {},
+    "scrCamera": {},
+    "Title": {},
+    "TxtUrl": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "btnAdmin": 1,
+    "btnUpload": 6,
+    "camVideo": 4,
+    "Comp_Header": 0,
+    "Comp_left_menu": 0,
+    "Comp_leftmenu": 2,
+    "CompFooter": 0,
+    "CompHeader": 0,
+    "gallerynav": 10,
+    "galleryTemplate2": 11,
+    "Host": 0,
+    "icontop": 9,
+    "imgVideoImage": 3,
+    "lbl_header_label": 7,
+    "lbl_header_label_1": 8,
+    "lbl_header_label_2": 14,
+    "lbl_header_label_3": 15,
+    "Navicon": 13,
+    "scrCamera": 3,
+    "Title": 12,
+    "TxtUrl": 5
+  },
+  "ResourcesJsonIndices": {
+    "Image-channels4_profile": 1,
+    "Image-Excel-icon": 3,
+    "Image-QuestPond2022062409100620220624092538": 2,
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.210602,
+    "ControlCount": {
+      "4757cbe572fd417b996cc223d56ddc18": 1,
+      "745e9b79725d4428ac4abe2712d7412d": 2,
+      "button": 2,
+      "camera": 1,
+      "f96484df10f742e2b79cbad49c78d39e": 2,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 2,
+      "image": 1,
+      "label": 5,
+      "screen": 1,
+      "text": 1
+    },
+    "DeserializationLoadTime": 1.4291947
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}

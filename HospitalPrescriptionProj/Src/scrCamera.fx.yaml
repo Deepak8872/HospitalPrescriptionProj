@@ -1,0 +1,97 @@
+scrCamera As screen:
+    Fill: =RGBA(215, 223, 240, 1)
+    OnVisible: |
+        =UpdateContext({locImageCaptured:""});
+
+    camVideo As camera:
+        Camera: =0
+        Height: =276
+        Width: =525
+        X: =165
+        Y: =128
+        ZIndex: =1
+
+    imgVideoImage As image:
+        Height: =284
+        Image: =camVideo.Photo
+        Width: =488
+        X: =757
+        Y: =120
+        ZIndex: =12
+
+    btnUpload As button:
+        Fill: =RGBA(54, 176, 75, 1)
+        Height: =62
+        OnSelect: |+
+            =AzureBlobStorage.CreateFile("imgprescriptionstorage", "Capture_" & Text(Now(),"[$-en-US]mmddyyyhhmmss") & ".jpg",camVideo.Photo);
+            Set(FlowData,ImageRecognizationFlow.Run("","","",camVideo.Photo));
+            
+            
+            //Set(varimg,camVideo.Photo);
+            //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
+            //ImagesReaderFlow.Run(varimg);
+            
+            
+        Size: =25
+        Text: ="Save"
+        Width: =394
+        X: =216
+        Y: =706
+        ZIndex: =13
+
+    TxtUrl As text:
+        Default: =FlowData.extractedtext1
+        Height: =245
+        Mode: =TextMode.MultiLine
+        Width: =1048
+        X: =197
+        Y: =421
+        ZIndex: =15
+
+    Comp_Header As CompHeader:
+        Height: =84
+        ZIndex: =17
+
+    Comp_leftmenu As Comp_left_menu:
+        Height: =602
+        Navitems: |-
+            =Table(
+                {
+                    Title:"Home",
+                    Screen:scrCamera,
+                    Icon:  Icon.Home
+                },
+                 {
+                    Title:"Doctors",
+                    Screen:App.ActiveScreen,
+                    Icon:  Icon.Medical
+                },
+                 {
+                    Title:"Clinics",
+                    Screen:App.ActiveScreen,
+                    Icon:  Icon.Hospital
+                },
+                 {
+                    Title:"Settings",
+                    Screen:App.ActiveScreen,
+                    Icon:  Icon.Settings
+                },
+                {
+                    Title:"Notes",
+                    Screen:App.ActiveScreen,
+                    Icon:  Icon.DocumentWithContent
+                }
+            )
+                
+        Width: =Comp_leftmenu.menuWidth
+        Y: =82
+        ZIndex: =19
+
+    btnAdmin As button:
+        OnSelect: |
+            =
+        Text: ="Admin"
+        X: =1187
+        Y: =22
+        ZIndex: =20
+
