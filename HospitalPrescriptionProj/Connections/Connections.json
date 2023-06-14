@@ -1,4 +1,62 @@
 {
+  "18f15104-9b02-4ac6-a52d-ad4abcae462c": {
+    "connectionRef": {
+      "authenticationType": "shared-application",
+      "displayName": "Gmail",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/gmail/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_gmail"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "5e902497-329d-4ab2-92d1-deb38bf0c375"
+    ],
+    "id": "18f15104-9b02-4ac6-a52d-ad4abcae462c"
+  },
+  "5e902497-329d-4ab2-92d1-deb38bf0c375": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "7b132975-1d44-4924-b112-8ab685296a62"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "7b132975-1d44-4924-b112-8ab685296a62"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "EmailFlow_Test"
+    ],
+    "dependencies": {
+      "shared_commondataserviceforapps": "9289e0c4-af22-4abd-9e35-6829e6a4381c",
+      "shared_gmail": "18f15104-9b02-4ac6-a52d-ad4abcae462c"
+    },
+    "dependents": [],
+    "id": "5e902497-329d-4ab2-92d1-deb38bf0c375"
+  },
+  "9289e0c4-af22-4abd-9e35-6829e6a4381c": {
+    "connectionRef": {
+      "displayName": "Microsoft Dataverse",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1639/1.0.1639.3315/commondataserviceforapps/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "5e902497-329d-4ab2-92d1-deb38bf0c375"
+    ],
+    "id": "9289e0c4-af22-4abd-9e35-6829e6a4381c"
+  },
   "a32d5a23-e040-4249-97a5-74ef03444dbd": {
     "connectionRef": {
       "apiTier": "Premium",
@@ -21,9 +79,8 @@
     ],
     "id": "a32d5a23-e040-4249-97a5-74ef03444dbd"
   },
-  "f0563bf4-e894-4385-8eac-853a4654cbe1": {
+  "e0a573b8-a941-495f-9907-f29c784d35f4": {
     "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "Logic flows",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
@@ -46,6 +103,6 @@
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "f0563bf4-e894-4385-8eac-853a4654cbe1"
+    "id": "e0a573b8-a941-495f-9907-f29c784d35f4"
   }
 }

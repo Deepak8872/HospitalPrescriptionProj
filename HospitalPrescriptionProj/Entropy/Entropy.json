@@ -33,11 +33,14 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/14/2023 08:47:31",
+  "HeaderLastSavedDateTimeUTC": "06/14/2023 08:50:03",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
+    "18f15104-9b02-4ac6-a52d-ad4abcae462c": "\"/providers/microsoft.powerapps/apis/shared_gmail/connections/shared-gmail-2d7e4ef5-5abd-48d3-b2db-2f083752f28d\"",
+    "5e902497-329d-4ab2-92d1-deb38bf0c375": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/7B1329751D444924B1128AB685296A62-8AC9CDF357D3E273\"",
+    "9289e0c4-af22-4abd-9e35-6829e6a4381c": "\"/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/shared-commondataser-6c3943de-1e47-4c21-b67d-d5aed066cbf3\"",
     "a32d5a23-e040-4249-97a5-74ef03444dbd": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/e1e33d4a29184b65aa5ab889b6e24bff\"",
-    "f0563bf4-e894-4385-8eac-853a4654cbe1": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/1e00ccb4708146298de02a6d95c3572e-8ac9cdf357d3e273\""
+    "e0a573b8-a941-495f-9907-f29c784d35f4": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/1E00CCB4708146298DE02A6D95C3572E-8AC9CDF357D3E273\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -62,12 +65,13 @@
   },
   "OrderDataSource": {
     "AzureBlobStorage": 0,
-    "CustomGallerySample": 5,
+    "CustomGallerySample": 6,
+    "EmailFlow_Test": 2,
     "ImageRecognizationFlow": 1,
-    "tbl_Presciptions": 6,
-    "tbl_Presciptions\\crdce_tbl_presciptions_statecode": 2,
-    "tbl_Presciptions\\crdce_tbl_presciptions_statuscode": 3,
-    "tbl_Presciptions\\default.cds_crdce_tbl_presciptions_views": 4
+    "tbl_Presciptions": 7,
+    "tbl_Presciptions\\crdce_tbl_presciptions_statecode": 3,
+    "tbl_Presciptions\\crdce_tbl_presciptions_statuscode": 4,
+    "tbl_Presciptions\\default.cds_crdce_tbl_presciptions_views": 5
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},

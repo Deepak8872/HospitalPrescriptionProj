@@ -111,15 +111,15 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "1bcfea2a-602c-473e-b803-e5909ab037ab",
-    "Id": "ae4f06a3-809d-4a3b-b585-5e0e396cfc0b",
+    "Id": "eed86acd-5eb7-42ce-b145-d02e60667726",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "HospitalPrescriptionNew",
+    "Name": "HospitalPrescriptionNew+-+copy.msapp",
     "OriginatingVersion": "1.331",
     "ParserErrorCount": 0
   },
   "PublishInfo": {
-    "AppName": "HospitalPrescriptionNew",
+    "AppName": "HospitalPrescriptionNew - copy",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
