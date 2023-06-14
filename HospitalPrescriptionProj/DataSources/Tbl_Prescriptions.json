@@ -1,0 +1,130 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crdce_tbl_prescriptions",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crdce_tbl_prescription",
+    "MaxGetRowsCount": 500,
+    "Name": "Tbl_Prescriptions",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crdce_activestatusnew": "Verification",
+      "crdce_age": "Age",
+      "crdce_approvalstatus": "Approval Status",
+      "crdce_crdce_tbl_detailprescription_Prescription": "Tbl_DetailPrescriptions",
+      "crdce_extractedtext": "ExtractedText",
+      "crdce_gender": "Gender",
+      "crdce_Location": "Location",
+      "crdce_name": "ID",
+      "crdce_tbl_prescription_AsyncOperations": "System Jobs",
+      "crdce_tbl_prescription_BulkDeleteFailures": "Bulk Delete Failures",
+      "crdce_tbl_prescription_DuplicateBaseRecord": "Duplicate Records (crdce_tbl_prescription_DuplicateBaseRecord)",
+      "crdce_tbl_prescription_DuplicateMatchingRecord": "Duplicate Records (crdce_tbl_prescription_DuplicateMatchingRecord)",
+      "crdce_tbl_prescription_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crdce_tbl_prescription_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crdce_tbl_prescription_ProcessSession": "Process Sessions",
+      "crdce_tbl_prescription_SyncErrors": "Sync Errors",
+      "crdce_tbl_prescriptionid": "Tbl_Prescription",
+      "crdce_url": "URL",
+      "createdby": "Created By",
+      "createdon": "Date",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Tbl_Prescriptions",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Tbl_Prescriptions (Views)",
+    "Name": "_crdce_tbl_prescription_views",
+    "RelatedEntityName": "Tbl_Prescriptions",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1a9f8c6d-2c61-466e-b80d-2f3015dc56e8": "Active Tbl_Prescriptions",
+      "31a64cad-9c4b-4270-bf90-6592b664f1c2": "Tbl_Prescription Associated View",
+      "43778a82-84a7-4e9a-821a-20a7a3280eef": "Tbl_Prescription Advanced Find View",
+      "692ed6d6-1c15-4b51-a10f-fde6332a6964": "Inactive Tbl_Prescriptions",
+      "e8a22f02-1f64-4032-a0c0-ad0e5839fde7": "Tbl_Prescription Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Approval Status",
+    "Name": "crdce_approvalstatus",
+    "OptionSetInfoNameMapping": {
+      "630240000": "Approved",
+      "630240002": "Reject",
+      "630240003": "Pending"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crdce_activestatusnew",
+        "OptionSetReferenceEntityName": "Tbl_Prescriptions"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "crdce_approvalstatus",
+        "OptionSetReferenceEntityName": "Tbl_Prescriptions"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crdce_activestatusnew",
+    "RelatedEntityName": "Tbl_Prescriptions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Tbl_Prescriptions)",
+    "Name": "crdce_tbl_prescription_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Tbl_Prescriptions"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Tbl_Prescriptions",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Tbl_Prescriptions)",
+    "Name": "crdce_tbl_prescription_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Tbl_Prescriptions"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Tbl_Prescriptions",
+    "Type": "OptionSetInfo"
+  }
+]

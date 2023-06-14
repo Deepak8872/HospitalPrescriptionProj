@@ -6,6 +6,13 @@
       "Values": {
         "Information": "bf9786cd-e70a-4831-9c0a-e110d5d88570"
       }
+    },
+    {
+      "Kind": "default.cds_crdce_tbl_prescription_forms",
+      "Namespace": "Tbl_Prescriptions (Forms)",
+      "Values": {
+        "Information": "1e64c63d-611b-4a72-a6ee-ad165fce9994"
+      }
     }
   ]
 }

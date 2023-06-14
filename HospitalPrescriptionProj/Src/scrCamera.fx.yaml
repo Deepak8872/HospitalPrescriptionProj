@@ -26,7 +26,7 @@ scrCamera As screen:
             =AzureBlobStorage.CreateFile("imgprescriptionstorage", "Capture_" & Text(Now(),"[$-en-US]mmddyyyhhmmss") & ".jpg",camVideo.Photo);
             Set(FlowData,ImageRecognizationFlow.Run("","","",camVideo.Photo));
             
-            EmailFlow_Test.Run();
+            EmailFlow.Run();
             //Set(varimg,camVideo.Photo);
             //AzureBlobStorage.CreateFile("imgprescriptionstorage",TextInput1.Text & ".jpg",varimg);
             //ImagesReaderFlow.Run(varimg);

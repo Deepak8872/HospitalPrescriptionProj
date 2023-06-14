@@ -664,17 +664,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.tbl_Presciptions"
+                  "fullyQualifiedName": "App.Tbl_Prescriptions"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.tbl_Presciptions",
+                  "fullyQualifiedName": "App.Tbl_Prescriptions",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "tbl_Presciptions",
+                "member": "Tbl_Prescriptions",
                 "module": "App",
                 "type": "App"
               }
@@ -754,17 +754,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.EmailFlow_Test"
+                  "fullyQualifiedName": "App.EmailFlow"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.EmailFlow_Test",
+                  "fullyQualifiedName": "App.EmailFlow",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "EmailFlow_Test",
+                "member": "EmailFlow",
                 "module": "App",
                 "type": "App"
               }
