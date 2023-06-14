@@ -2,7 +2,6 @@
   "ComponentIndexes": {
     "Comp_Header": 2,
     "Comp_left_menu": 2,
-    "Comp_leftmenu": 2,
     "CompFooter": 3,
     "CompHeader": 1
   },
@@ -13,32 +12,31 @@
     "btnUpload": 23,
     "camVideo": 21,
     "Comp_Header": 17,
-    "Comp_left_menu": 10,
-    "Comp_leftmenu": 19,
-    "CompFooter": 4,
-    "CompHeader": 7,
-    "gallerynav": 12,
-    "galleryTemplate2": 13,
+    "Comp_left_menu": 4,
+    "CompFooter": 10,
+    "CompHeader": 13,
+    "gallerynav": 6,
+    "galleryTemplate2": 7,
     "Host": 3,
-    "icontop": 11,
+    "icontop": 5,
     "imgVideoImage": 20,
-    "lbl_header_label": 8,
-    "lbl_header_label_1": 9,
-    "lbl_header_label_2": 5,
-    "lbl_header_label_3": 6,
-    "Navicon": 15,
+    "lbl_header_label": 14,
+    "lbl_header_label_1": 15,
+    "lbl_header_label_2": 11,
+    "lbl_header_label_3": 12,
+    "Navicon": 9,
     "scrCamera": 16,
-    "Title": 14,
+    "Title": 8,
     "TxtUrl": 22
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/14/2023 09:02:20",
+  "HeaderLastSavedDateTimeUTC": "06/14/2023 09:08:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "8d4824b3-b1b8-4d02-a234-b1ed6b4f2754": "\"/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/shared-commondataser-6c3943de-1e47-4c21-b67d-d5aed066cbf3\"",
     "a32d5a23-e040-4249-97a5-74ef03444dbd": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/e1e33d4a29184b65aa5ab889b6e24bff\"",
-    "af6edb39-ba20-4784-ba01-e7079d52ee9f": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/7B1329751D444924B1128AB685296A62-8AC9CDF357D3E273\"",
+    "af6edb39-ba20-4784-ba01-e7079d52ee9f": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/7b1329751d444924b1128ab685296a62-8ac9cdf357d3e273\"",
     "b8dbd438-8b0b-481a-871d-4254f1853909": "\"/providers/microsoft.powerapps/apis/shared_gmail/connections/shared-gmail-2d7e4ef5-5abd-48d3-b2db-2f083752f28d\"",
     "e0a573b8-a941-495f-9907-f29c784d35f4": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/1e00ccb4708146298de02a6d95c3572e-8ac9cdf357d3e273\""
   },
@@ -49,19 +47,19 @@
     "QuestPond2022062409100620220624092538": "29991d88-1490-412e-93c1-1ac88fdf3fdb.jpg"
   },
   "LocalResourceRootPaths": {
-    "channels4_profile": "https://docserverpwaprodsin.blob.core.windows.net/3a9f4b03-012c-4412-9d6d-72dc3d24308c-1/resource/Assets0Images0834efdc4-c5ff-4eee-a361-5775f9f2fb41.jpg?sv=2018-03-28&sr=b&sig=XR5XcPqNSYbRrtdoSQhUB2zhBJAFUmw40%2FaCTbSL4Pg%3D&spr=https&se=2023-06-15T09%3A02%3A14Z&sp=r",
-    "Excel-icon": "https://docserverpwaprodsin.blob.core.windows.net/3a9f4b03-012c-4412-9d6d-72dc3d24308c-1/resource/Assets0Images08c5e3ad2-3176-47be-972b-23d6c6522f65.png?sv=2018-03-28&sr=b&sig=C666%2B0gPu7iZjdzMb6FIZtFzVVasQz2ojsFMrOjtPDg%3D&spr=https&se=2023-06-15T09%3A02%3A14Z&sp=r",
-    "QuestPond2022062409100620220624092538": "https://docserverpwaprodsin.blob.core.windows.net/3a9f4b03-012c-4412-9d6d-72dc3d24308c-1/resource/Assets0Images029991d88-1490-412e-93c1-1ac88fdf3fdb.jpg?sv=2018-03-28&sr=b&sig=m4M0BFawlIAqPBeTxglzHyDu5RbjXQ9MHWM8doqillA%3D&spr=https&se=2023-06-15T09%3A02%3A14Z&sp=r"
+    "channels4_profile": "https://docserverpwaprodcin.blob.core.windows.net/862ccf4b-c811-460a-b224-fe605edd5cf4-1/resource/Assets0Images0834efdc4-c5ff-4eee-a361-5775f9f2fb41.jpg?sv=2018-03-28&sr=b&sig=S7SYUnn3XwaRsL3TahZEcBkqD18GS3Ij5rFTmsHBCpI%3D&spr=https&se=2023-06-15T09%3A17%3A59Z&sp=r",
+    "Excel-icon": "https://docserverpwaprodcin.blob.core.windows.net/862ccf4b-c811-460a-b224-fe605edd5cf4-1/resource/Assets0Images08c5e3ad2-3176-47be-972b-23d6c6522f65.png?sv=2018-03-28&sr=b&sig=VzkISqnFZJOv6bP45Ap3iwsx2GvS9W7dZvwiV1wSjeA%3D&spr=https&se=2023-06-15T09%3A17%3A59Z&sp=r",
+    "QuestPond2022062409100620220624092538": "https://docserverpwaprodcin.blob.core.windows.net/862ccf4b-c811-460a-b224-fe605edd5cf4-1/resource/Assets0Images029991d88-1490-412e-93c1-1ac88fdf3fdb.jpg?sv=2018-03-28&sr=b&sig=6QOWbDia8KRZ0lgq68%2BovI4KKKrwtEYhH9pDsmQQRNE%3D&spr=https&se=2023-06-15T09%3A17%3A59Z&sp=r"
   },
   "OrderComponentMetadata": {
-    "4757cbe572fd417b996cc223d56ddc18": 0,
-    "745e9b79725d4428ac4abe2712d7412d": 1,
-    "f96484df10f742e2b79cbad49c78d39e": 2
+    "4757cbe572fd417b996cc223d56ddc18": 1,
+    "745e9b79725d4428ac4abe2712d7412d": 2,
+    "f96484df10f742e2b79cbad49c78d39e": 0
   },
   "OrderComponentTemplate": {
-    "4757cbe572fd417b996cc223d56ddc18": 0,
-    "745e9b79725d4428ac4abe2712d7412d": 1,
-    "f96484df10f742e2b79cbad49c78d39e": 2
+    "4757cbe572fd417b996cc223d56ddc18": 1,
+    "745e9b79725d4428ac4abe2712d7412d": 2,
+    "f96484df10f742e2b79cbad49c78d39e": 0
   },
   "OrderDataSource": {
     "AzureBlobStorage": 0,
@@ -79,12 +77,12 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 1,
-    "camera": 5,
-    "gallery": 3,
-    "icon": 2,
-    "image": 4,
+    "camera": 3,
+    "gallery": 6,
+    "icon": 5,
+    "image": 2,
     "label": 0,
-    "text": 6
+    "text": 4
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -93,7 +91,6 @@
     "camVideo": {},
     "Comp_Header": {},
     "Comp_left_menu": {},
-    "Comp_leftmenu": {},
     "CompFooter": {},
     "CompHeader": {},
     "gallerynav": {},
@@ -119,7 +116,6 @@
     "camVideo": 4,
     "Comp_Header": 0,
     "Comp_left_menu": 0,
-    "Comp_leftmenu": 2,
     "CompFooter": 0,
     "CompHeader": 0,
     "gallerynav": 10,
@@ -145,7 +141,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2438444,
+    "AnalysisLoadTime": 0.1663299,
     "ControlCount": {
       "4757cbe572fd417b996cc223d56ddc18": 1,
       "745e9b79725d4428ac4abe2712d7412d": 2,
@@ -160,7 +156,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 2.2721218
+    "DeserializationLoadTime": 1.430999
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

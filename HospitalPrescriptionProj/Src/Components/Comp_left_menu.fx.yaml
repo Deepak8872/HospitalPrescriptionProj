@@ -43,7 +43,7 @@ Comp_left_menu As CanvasComponent:
 
     gallerynav As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =Parent.Height- icontop.Height
+        Height: =685
         Items: =Comp_left_menu.Navitems
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data

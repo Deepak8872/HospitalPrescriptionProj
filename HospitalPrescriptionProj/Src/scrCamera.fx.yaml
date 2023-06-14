@@ -52,41 +52,6 @@ scrCamera As screen:
         Height: =84
         ZIndex: =17
 
-    Comp_leftmenu As Comp_left_menu:
-        Height: =602
-        Navitems: |-
-            =Table(
-                {
-                    Title:"Home",
-                    Screen:scrCamera,
-                    Icon:  Icon.Home
-                },
-                 {
-                    Title:"Doctors",
-                    Screen:App.ActiveScreen,
-                    Icon:  Icon.Medical
-                },
-                 {
-                    Title:"Clinics",
-                    Screen:App.ActiveScreen,
-                    Icon:  Icon.Hospital
-                },
-                 {
-                    Title:"Settings",
-                    Screen:App.ActiveScreen,
-                    Icon:  Icon.Settings
-                },
-                {
-                    Title:"Notes",
-                    Screen:App.ActiveScreen,
-                    Icon:  Icon.DocumentWithContent
-                }
-            )
-                
-        Width: =Comp_leftmenu.menuWidth
-        Y: =82
-        ZIndex: =19
-
     btnAdmin As button:
         OnSelect: |
             =
