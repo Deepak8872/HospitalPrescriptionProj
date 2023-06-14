@@ -2,6 +2,7 @@
   "ComponentIndexes": {
     "Comp_Header": 2,
     "Comp_left_menu": 2,
+    "Comp_left_menu_1": 2,
     "CompFooter": 3,
     "CompHeader": 1
   },
@@ -13,6 +14,7 @@
     "camVideo": 21,
     "Comp_Header": 17,
     "Comp_left_menu": 4,
+    "Comp_left_menu_1": 24,
     "CompFooter": 10,
     "CompHeader": 13,
     "gallerynav": 6,
@@ -31,7 +33,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/14/2023 09:08:47",
+  "HeaderLastSavedDateTimeUTC": "06/14/2023 09:17:59",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "8d4824b3-b1b8-4d02-a234-b1ed6b4f2754": "\"/providers/microsoft.powerapps/apis/shared_commondataserviceforapps/connections/shared-commondataser-6c3943de-1e47-4c21-b67d-d5aed066cbf3\"",
@@ -67,9 +69,9 @@
     "EmailFlow": 2,
     "ImageRecognizationFlow": 1,
     "Tbl_Prescriptions": 8,
-    "Tbl_Prescriptions\\crdce_approvalstatus": 3,
+    "Tbl_Prescriptions\\crdce_approvalstatus": 5,
     "Tbl_Prescriptions\\crdce_tbl_prescription_statecode": 4,
-    "Tbl_Prescriptions\\crdce_tbl_prescription_statuscode": 5,
+    "Tbl_Prescriptions\\crdce_tbl_prescription_statuscode": 3,
     "Tbl_Prescriptions\\default.cds_crdce_tbl_prescription_views": 6
   },
   "OrderGroupControls": {},
@@ -77,12 +79,12 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 1,
-    "camera": 3,
-    "gallery": 6,
-    "icon": 5,
-    "image": 2,
+    "camera": 5,
+    "gallery": 3,
+    "icon": 2,
+    "image": 4,
     "label": 0,
-    "text": 4
+    "text": 6
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -91,6 +93,7 @@
     "camVideo": {},
     "Comp_Header": {},
     "Comp_left_menu": {},
+    "Comp_left_menu_1": {},
     "CompFooter": {},
     "CompHeader": {},
     "gallerynav": {},
@@ -116,6 +119,7 @@
     "camVideo": 4,
     "Comp_Header": 0,
     "Comp_left_menu": 0,
+    "Comp_left_menu_1": 2,
     "CompFooter": 0,
     "CompHeader": 0,
     "gallerynav": 10,
@@ -147,7 +151,7 @@
       "745e9b79725d4428ac4abe2712d7412d": 2,
       "button": 2,
       "camera": 1,
-      "f96484df10f742e2b79cbad49c78d39e": 2,
+      "f96484df10f742e2b79cbad49c78d39e": 3,
       "gallery": 1,
       "galleryTemplate": 1,
       "icon": 2,

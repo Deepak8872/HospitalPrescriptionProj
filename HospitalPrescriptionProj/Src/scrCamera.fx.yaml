@@ -60,3 +60,8 @@ scrCamera As screen:
         Y: =22
         ZIndex: =20
 
+    Comp_left_menu_1 As Comp_left_menu:
+        Width: =Comp_left_menu_1.menuWidth
+        Y: =82
+        ZIndex: =21
+
